@@ -1,0 +1,21 @@
+.user-card {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+  background-color: #141414;
+  border-radius: 15px;
+  border: 1px solid #ff2d95
+  margin-bottom: 20px;
+}
+
+.user-card-avatar {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.user-card-info {
+
+}
