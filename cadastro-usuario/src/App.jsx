@@ -66,6 +66,12 @@ function App() {
       key={user.id} 
       user={user} />
 ))}
+
+function deleteUser(id) {
+  setUsers(
+    users.filter((user) => user.id !== ide)
+  )
+}
       </div>
 
     </div>
